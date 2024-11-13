@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: blue;
+            border-radius: 0.5rem;
+            border: 1px solid blue;
+            padding: 10px;
+            color: white;
+            margin: 1rem;
+
+        }
+        .nice{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+        .midile{
+            display: flex;
+            
+            
+            padding: 10px;
+            
+           
+
+        }
+        .container{
+            display: flex;
+            row-gap: 1em;
+            background-color: white;
+            padding: 10px;
+            margin: 1em;
+            gap: 1rem;
+        }
+        .main{
+            background-color: green;
+            height: 70vh;
+            width: 70vw;
+            padding:1rem;
+            border: 1px solid green;
+            border-radius: 0.5rem ;
+        }
+        .item{
+            background-color: aquamarine;
+            border: 1px solid chocolate;
+            border-radius: 0.5rem;
+            text-align: center;
+            display: inline-flex;
+            padding:1rem ;
+            margin: 0.5rem;
+            height: 3em;
+            width: 3em;
+        }
+        
+        
+        
+        footer{
+            background-color: blue;
+            border-radius: 0.5rem;
+            border: 1px solid blue;
+            padding: 20px;
+            color: white;
+            margin: 1em;
+            flex-grow: 0;
+        }
+        .slidebar{
+            background-color: red;
+            border-radius: 1px solid red;
+            width: 30vw;
+            width: 50px;
+            text-align: start;
+            border-radius: 1rem;
+            padding: 40px;
+            color: white;
+        }
+
+    </style>
+
+
+    </head>
+    <body>
+        <div class="nice">
+            <header>header</header>
+            
+            <div class="container">
+                <div class="midile">
+
+                    <main  class="main" ><div>
+                        main
+                    </div>
+                    <div>
+                        <div class="item"> item </div>
+                        <div class="item"> item </div>
+                        <div class="item"> item </div>
+                        <div class="item"> item </div>
+                        <div class="item"> item </div>
+                        <div class="item"> item </div>
+                        <div class="item"> item </div>
+                        <div class="item"> item </div>
+                        <div class="item"> item </div>
+                        <div class="item"> item </div>
+                        <div class="item"> item </div>
+                        <div class="item"> item </div>
+                    </div>
+                    
+                </div>
+                <main class="slidebar">sidebar</main>
+            </div>
+            <footer>footer</footer>
+        </div>
+    </body>
+</html>
